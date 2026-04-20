@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GCSE Maths Master Checklist</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>GCSE Maths Master Checklist</h1>
+      <p class="sub">Search, filter, expand, check off, and save progress locally in your browser.</p>
+    </div>
+    <div class="topbar-actions">
+      <input id="search" type="search" placeholder="Search topics, tags, traps, skills..." />
+      <button id="expandAll">Expand all</button>
+      <button id="collapseAll">Collapse all</button>
+      <button id="resetProgress" class="danger">Reset progress</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section class="card">
+        <h2>Progress</h2>
+        <div class="progress-wrap">
+          <div class="progress-bar"><div id="progressBar"></div></div>
+          <div id="progressText">0%</div>
+        </div>
+        <div class="tiny">Saved automatically in localStorage.</div>
+      </section>
+
+      <section class="card">
+        <h2>Filters</h2>
+        <label><input type="checkbox" class="priorityFilter" value="core" checked> Core</label>
+        <label><input type="checkbox" class="priorityFilter" value="extended" checked> Extended</label>
+        <label><input type="checkbox" class="priorityFilter" value="higher_only" checked> Higher only</label>
+      </section>
+
+      <section class="card">
+        <h2>Navigator</h2>
+        <nav id="nav"></nav>
+      </section>
+    </aside>
+
+    <section id="content" class="content"></section>
+  </main>
+
+  <template id="subsectionTemplate">
+    <details class="subsection">
+      <summary>
+        <span class="title"></span>
+        <span class="chips">
+          <span class="chip priority"></span>
+          <label class="tick">
+            <input type="checkbox" class="masterCheck" />
+            <span>Done</span>
+          </label>
+        </span>
+      </summary>
+      <div class="subsection-body">
+        <div class="columns">
+          <div class="panel">
+            <h4>What you need to know</h4>
+            <ul class="knowledge"></ul>
+          </div>
+          <div class="panel">
+            <h4>Understanding</h4>
+            <ul class="understanding"></ul>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="panel">
+            <h4>Procedures</h4>
+            <ul class="procedures"></ul>
+          </div>
+          <div class="panel">
+            <h4>Common exam traps</h4>
+            <ul class="traps"></ul>
+          </div>
+        </div>
+        <div class="panel">
+          <h4>Self-test prompts</h4>
+          <ul class="selftest"></ul>
+        </div>
+        <div class="panel">
+          <h4>Confidence notes</h4>
+          <textarea class="notes" rows="3" placeholder="Write weak spots, errors you keep making, or examples to revisit..."></textarea>
+        </div>
+      </div>
+    </details>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
