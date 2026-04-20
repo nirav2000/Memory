@@ -1,0 +1,1615 @@
+window.CHECKLIST_DATA = {
+  "meta": {
+    "title": "GCSE Maths Master Checklist",
+    "version": "1.0",
+    "scope": "Board-agnostic GCSE Mathematics checklist intended to cover common Foundation and Higher content.",
+    "notes": [
+      "Organised for revision and self-audit rather than by any single exam board wording.",
+      "Each item contains knowledge, understanding, procedures, common traps, and self-test prompts.",
+      "Includes some overlap across sections because GCSE questions often blend topics."
+    ],
+    "study_features": [
+      "Checkboxes per item",
+      "Progress by section",
+      "Searchable tags",
+      "Traffic-light priority labels",
+      "Self-test prompts",
+      "Confidence notes field"
+    ]
+  },
+  "legend": {
+    "priority": {
+      "core": "Very common / high-frequency / foundational",
+      "extended": "Important but less frequent or more advanced",
+      "higher_only": "Usually Higher-tier or extension content"
+    },
+    "status_suggestion": [
+      "not_started",
+      "learning",
+      "secure",
+      "mastered"
+    ]
+  },
+  "domains": [
+    {
+      "id": "number_place_value",
+      "name": "Number and Place Value",
+      "tags": [
+        "number",
+        "place value",
+        "foundations"
+      ],
+      "sections": [
+        {
+          "id": "number_sets",
+          "name": "Number sets and classification",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Natural numbers",
+              "what_you_need_to_know": [
+                "Definition commonly used: counting numbers 1, 2, 3, ...; some contexts include 0, so check the convention used.",
+                "Difference between natural numbers, whole numbers, integers, rational numbers, irrational numbers and real numbers.",
+                "Set notation examples such as N, Z, Q when used in questions or enrichment contexts."
+              ],
+              "understanding": [
+                "A number can belong to more than one set.",
+                "Classification matters because a method or statement may only apply to certain sets.",
+                "Zero is often the main point of ambiguity between natural and whole numbers."
+              ],
+              "procedures": [
+                "Classify a given number into all valid sets.",
+                "Decide whether a statement about a set is true or false.",
+                "Interpret simple set-language in questions."
+              ],
+              "exam_traps": [
+                "Assuming all sources define natural numbers the same way.",
+                "Treating fractions or decimals as integers.",
+                "Forgetting that terminating and recurring decimals are rational."
+              ],
+              "self_test": [
+                "Is 0 natural, whole, integer, rational, real?",
+                "Which of these are natural numbers: -3, 0, 1, 4.5, sqrt(9)?"
+              ]
+            },
+            {
+              "name": "Whole numbers and integers",
+              "what_you_need_to_know": [
+                "Whole numbers are 0 and positive integers.",
+                "Integers are negative whole numbers, zero and positive whole numbers.",
+                "Positive, negative and zero on the number line."
+              ],
+              "understanding": [
+                "Ordering negative numbers relies on position on the number line, not visual size of the digit.",
+                "Zero is neither positive nor negative."
+              ],
+              "procedures": [
+                "Compare and order integers.",
+                "Use inequality symbols <, >, <=, >= correctly.",
+                "Interpret integers in context such as temperature, debt and elevation."
+              ],
+              "exam_traps": [
+                "Thinking -10 is greater than -2 because 10 > 2.",
+                "Confusing 'digit' with 'value'."
+              ],
+              "self_test": [
+                "Order: -7, 3, 0, -1, 12.",
+                "Write a temperature increase from -4 C to 3 C as a signed change."
+              ]
+            },
+            {
+              "name": "Rational, irrational and real numbers",
+              "what_you_need_to_know": [
+                "Rational numbers can be written as a fraction of integers.",
+                "Irrational numbers cannot be written exactly as a fraction of integers.",
+                "Examples: pi and sqrt(2) are irrational; 0.25 and 0.333... are rational.",
+                "Real numbers include both rational and irrational numbers."
+              ],
+              "understanding": [
+                "Recurring decimals are rational.",
+                "Not every square root is irrational; sqrt(49)=7 is rational."
+              ],
+              "procedures": [
+                "Recognise whether a number is rational or irrational.",
+                "Convert terminating and recurring decimals to fractions where required."
+              ],
+              "exam_traps": [
+                "Assuming every decimal is irrational.",
+                "Assuming every square root is irrational."
+              ],
+              "self_test": [
+                "Classify: sqrt(16), sqrt(3), 0.125, 0.272727..."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "place_value",
+          "name": "Place value and representation",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Place value of whole numbers",
+              "what_you_need_to_know": [
+                "Ones, tens, hundreds, thousands, ten thousands, hundred thousands, millions and beyond.",
+                "Difference between a digit and the value of the digit."
+              ],
+              "understanding": [
+                "A digit's value depends on position.",
+                "Zero can act as a placeholder."
+              ],
+              "procedures": [
+                "Identify the value of a specified digit.",
+                "Partition numbers in standard and non-standard ways.",
+                "Read and write large numbers from words and digits."
+              ],
+              "exam_traps": [
+                "Saying the value of 6 in 4,681 is 6 instead of 600.",
+                "Dropping placeholder zeros."
+              ],
+              "self_test": [
+                "State the value of the 4 in 340,512.",
+                "Write 5000 + 300 + 9 as a numeral."
+              ]
+            },
+            {
+              "name": "Decimal place value",
+              "what_you_need_to_know": [
+                "Tenths, hundredths, thousandths and further decimal places.",
+                "Relationship between decimals and fractions."
+              ],
+              "understanding": [
+                "Digits to the right of the decimal point represent parts of one whole.",
+                "4.05 and 4.5 are very different numbers."
+              ],
+              "procedures": [
+                "Identify decimal place values.",
+                "Write numbers to a given number of decimal places.",
+                "Partition decimals."
+              ],
+              "exam_traps": [
+                "Confusing 0.07 with 0.7.",
+                "Removing zeros that affect place value."
+              ],
+              "self_test": [
+                "What is the value of the 7 in 12.307?",
+                "Write 3 and 4 hundredths as a decimal."
+              ]
+            },
+            {
+              "name": "Number lines, scales and intervals",
+              "what_you_need_to_know": [
+                "Reading evenly spaced and unevenly spaced scales.",
+                "Locating integers, decimals and simple fractions on number lines."
+              ],
+              "understanding": [
+                "Scale questions test place value, estimation and proportional reasoning together."
+              ],
+              "procedures": [
+                "Estimate missing values on scales.",
+                "Plot a given value accurately."
+              ],
+              "exam_traps": [
+                "Assuming the interval is 1 when the labels imply a different interval."
+              ],
+              "self_test": [
+                "Place 2.7 on a number line from 2 to 3 divided into tenths."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rounding_estimation",
+          "name": "Rounding, approximation and estimation",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Rounding whole numbers",
+              "what_you_need_to_know": [
+                "Nearest 10, 100, 1000 and powers of 10.",
+                "Upper and lower midpoint rule for conventional rounding."
+              ],
+              "understanding": [
+                "Rounding depends on the target place, not just 'look at the next digit' mechanically."
+              ],
+              "procedures": [
+                "Round to a stated level of accuracy.",
+                "Use rounding to estimate calculations."
+              ],
+              "exam_traps": [
+                "Rounding from the wrong digit.",
+                "Changing digits after the rounded place incorrectly."
+              ],
+              "self_test": [
+                "Round 56,489 to the nearest thousand."
+              ]
+            },
+            {
+              "name": "Rounding decimals and significant figures",
+              "what_you_need_to_know": [
+                "Decimal places and significant figures.",
+                "Leading zeros are not significant."
+              ],
+              "understanding": [
+                "Significant figures depend on the first non-zero digit."
+              ],
+              "procedures": [
+                "Round to decimal places and significant figures.",
+                "Choose appropriate accuracy in context."
+              ],
+              "exam_traps": [
+                "Counting decimal places as significant figures.",
+                "Confusing 2 d.p. with 2 s.f."
+              ],
+              "self_test": [
+                "Round 0.004786 to 2 significant figures."
+              ]
+            },
+            {
+              "name": "Estimation and checking answers",
+              "what_you_need_to_know": [
+                "Estimating with one significant figure or convenient values.",
+                "Reasonableness checks in multi-step problems."
+              ],
+              "understanding": [
+                "Estimation is not separate from calculation; it is a control against impossible answers."
+              ],
+              "procedures": [
+                "Estimate products, quotients, roots and real-world calculations.",
+                "Use bounds-style thinking to decide if an answer is plausible."
+              ],
+              "exam_traps": [
+                "Over-rounding too early and making the estimate meaningless.",
+                "Treating an estimate as an exact answer when the question asks for an estimate only."
+              ],
+              "self_test": [
+                "Estimate 49.8 x 0.21 / 1.98."
+              ]
+            },
+            {
+              "name": "Error intervals and bounds",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Lower bound and upper bound notation.",
+                "How rounding to a unit creates an interval.",
+                "Use of inequality notation for bounds."
+              ],
+              "understanding": [
+                "A rounded measurement stands for a range of possible exact values.",
+                "Upper bounds are usually exclusive."
+              ],
+              "procedures": [
+                "Write error intervals.",
+                "Use bounds in perimeter, area, speed and density calculations."
+              ],
+              "exam_traps": [
+                "Including the upper bound when it should be excluded.",
+                "Using rounded numbers directly instead of the interval."
+              ],
+              "self_test": [
+                "A length is 8.2 cm correct to the nearest 0.1 cm. Write the error interval."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "powers_standard_form",
+          "name": "Powers of 10 and standard form",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Multiplying and dividing by powers of 10",
+              "what_you_need_to_know": [
+                "x10, x100, x1000 and division by the same.",
+                "Place value shift as a value change, not 'move the decimal point' as a rule with no meaning."
+              ],
+              "understanding": [
+                "Each multiplication by 10 makes every digit ten times the value.",
+                "Each division by 10 makes every digit one tenth of the value."
+              ],
+              "procedures": [
+                "Multiply and divide integers and decimals by powers of 10.",
+                "Apply this to metric conversions and standard form."
+              ],
+              "exam_traps": [
+                "Adding zeros blindly.",
+                "Misplacing decimal points in small decimals."
+              ],
+              "self_test": [
+                "Compute 0.045 x 1000 and 378 / 100."
+              ]
+            },
+            {
+              "name": "Indices and powers",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Square, cube and integer powers.",
+                "Index laws: multiply same base, divide same base, power of a power, zero index, negative index."
+              ],
+              "understanding": [
+                "Indices are repeated multiplication, not multiplication by the index.",
+                "Negative powers create reciprocals."
+              ],
+              "procedures": [
+                "Simplify expressions with indices.",
+                "Evaluate powers and roots."
+              ],
+              "exam_traps": [
+                "Adding indices when bases differ.",
+                "Confusing 2^3 with 2x3."
+              ],
+              "self_test": [
+                "Simplify a^3 x a^5 and b^7 / b^2."
+              ]
+            },
+            {
+              "name": "Standard form",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Number written as a x 10^n where 1 <= a < 10.",
+                "Use with very large and very small numbers."
+              ],
+              "understanding": [
+                "The first factor must always be at least 1 and less than 10."
+              ],
+              "procedures": [
+                "Convert to and from standard form.",
+                "Multiply and divide numbers in standard form.",
+                "Add and subtract standard form numbers by rewriting with a common power of 10 where needed."
+              ],
+              "exam_traps": [
+                "Leaving the leading factor outside the valid range.",
+                "Combining powers incorrectly when adding."
+              ],
+              "self_test": [
+                "Write 0.00056 in standard form.",
+                "Calculate (3 x 10^5)(2 x 10^-3)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calculation_fluency",
+      "name": "Calculation Fluency",
+      "tags": [
+        "arithmetic",
+        "operations",
+        "fractions",
+        "decimals",
+        "percentages"
+      ],
+      "sections": [
+        {
+          "id": "four_operations",
+          "name": "The four operations and order of operations",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Addition and subtraction",
+              "what_you_need_to_know": [
+                "Column methods for integers and decimals.",
+                "Mental strategies using place value and compensation."
+              ],
+              "understanding": [
+                "Subtraction can be difference or take-away.",
+                "Decimal points must align in written methods."
+              ],
+              "procedures": [
+                "Add and subtract positive and negative numbers.",
+                "Estimate before calculating."
+              ],
+              "exam_traps": [
+                "Lining up digits instead of place values.",
+                "Sign errors with negatives."
+              ],
+              "self_test": [
+                "Calculate -7 + 13 - 9."
+              ]
+            },
+            {
+              "name": "Multiplication and division",
+              "what_you_need_to_know": [
+                "Short and long multiplication.",
+                "Short and long division.",
+                "Division remainders and decimal remainders."
+              ],
+              "understanding": [
+                "Multiplication is scaling as well as repeated addition.",
+                "Division can mean sharing or grouping."
+              ],
+              "procedures": [
+                "Multiply integers and decimals.",
+                "Divide integers and decimals.",
+                "Interpret remainders in context."
+              ],
+              "exam_traps": [
+                "Forgetting place value in decimal multiplication.",
+                "Giving a remainder when the context requires rounding up."
+              ],
+              "self_test": [
+                "Calculate 3.6 x 0.4 and 125 / 8."
+              ]
+            },
+            {
+              "name": "Order of operations",
+              "what_you_need_to_know": [
+                "Brackets, powers, multiplication/division, addition/subtraction.",
+                "Use of fraction bars as grouping symbols."
+              ],
+              "understanding": [
+                "Multiplication and division share the same priority and work left to right.",
+                "Addition and subtraction share the same priority and work left to right."
+              ],
+              "procedures": [
+                "Evaluate numerical expressions accurately."
+              ],
+              "exam_traps": [
+                "Doing addition before multiplication.",
+                "Ignoring a negative sign before a bracket."
+              ],
+              "self_test": [
+                "Evaluate 3 + 4 x (10 - 6)^2 / 2."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "factors_multiples_primes",
+          "name": "Factors, multiples, primes and related number skills",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Factors and multiples",
+              "what_you_need_to_know": [
+                "A factor divides exactly; a multiple is the result of multiplication.",
+                "Common factors and common multiples."
+              ],
+              "understanding": [
+                "Factors are linked to division structure; multiples are linked to times tables and scaling."
+              ],
+              "procedures": [
+                "List factors and multiples.",
+                "Find common factors/multiples."
+              ],
+              "exam_traps": [
+                "Confusing factor with multiple."
+              ],
+              "self_test": [
+                "List the factors of 24 and the first five multiples of 6."
+              ]
+            },
+            {
+              "name": "Prime numbers and prime factorisation",
+              "what_you_need_to_know": [
+                "Prime number definition.",
+                "1 is not prime.",
+                "Prime factor decomposition and factor trees."
+              ],
+              "understanding": [
+                "Every integer greater than 1 has a unique prime factorisation."
+              ],
+              "procedures": [
+                "Test primality in simple cases.",
+                "Write numbers as products of prime factors.",
+                "Use index notation in prime factorisation."
+              ],
+              "exam_traps": [
+                "Including 1 as prime.",
+                "Stopping a factor tree too early."
+              ],
+              "self_test": [
+                "Write 180 as a product of prime factors."
+              ]
+            },
+            {
+              "name": "HCF and LCM",
+              "what_you_need_to_know": [
+                "Highest common factor and lowest common multiple.",
+                "Methods using lists, Venn diagrams or prime factors."
+              ],
+              "understanding": [
+                "HCF is linked to sharing/grouping; LCM is linked to repeat cycles and synchronisation."
+              ],
+              "procedures": [
+                "Find HCF and LCM using prime factors.",
+                "Apply HCF/LCM in context."
+              ],
+              "exam_traps": [
+                "Confusing HCF with LCM.",
+                "Taking all prime factors for HCF instead of only common ones with smallest powers."
+              ],
+              "self_test": [
+                "Find the HCF and LCM of 24 and 90."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fractions_decimals_percentages",
+          "name": "Fractions, decimals and percentages",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Equivalent fractions and simplification",
+              "what_you_need_to_know": [
+                "Equivalent fractions represent the same value.",
+                "Simplifying to lowest terms."
+              ],
+              "understanding": [
+                "A fraction is a number and a division relationship."
+              ],
+              "procedures": [
+                "Simplify fractions.",
+                "Find equivalent fractions with common denominators."
+              ],
+              "exam_traps": [
+                "Only cancelling one part of the fraction incorrectly."
+              ],
+              "self_test": [
+                "Simplify 18/24."
+              ]
+            },
+            {
+              "name": "Comparing and ordering fractions",
+              "what_you_need_to_know": [
+                "Common denominator approach.",
+                "Conversion to decimals where helpful."
+              ],
+              "understanding": [
+                "Size of numerator or denominator alone does not determine the size of the fraction."
+              ],
+              "procedures": [
+                "Order fractions, decimals and percentages together."
+              ],
+              "exam_traps": [
+                "Thinking 1/8 > 1/6 because 8 > 6."
+              ],
+              "self_test": [
+                "Order 0.6, 5/8, 62%."
+              ]
+            },
+            {
+              "name": "Fraction arithmetic",
+              "what_you_need_to_know": [
+                "Add/subtract with common and different denominators.",
+                "Multiply fractions.",
+                "Divide by a fraction using reciprocal."
+              ],
+              "understanding": [
+                "Denominators describe the size of the parts.",
+                "Dividing by a fraction asks how many of that fraction fit into the quantity."
+              ],
+              "procedures": [
+                "Perform all four operations with fractions and mixed numbers."
+              ],
+              "exam_traps": [
+                "Adding denominators directly.",
+                "Forgetting to convert mixed numbers before multiplication/division."
+              ],
+              "self_test": [
+                "Calculate 2/3 + 5/12 and 3 1/2 x 4/7."
+              ]
+            },
+            {
+              "name": "Decimals",
+              "what_you_need_to_know": [
+                "Place value, ordering, operations, rounding and recurring decimals."
+              ],
+              "understanding": [
+                "Decimals are base-10 fractions."
+              ],
+              "procedures": [
+                "Convert between fractions and decimals.",
+                "Perform calculations with decimals."
+              ],
+              "exam_traps": [
+                "Ignoring trailing zeros and significance of place value."
+              ],
+              "self_test": [
+                "Convert 7/8 to a decimal."
+              ]
+            },
+            {
+              "name": "Percentages",
+              "what_you_need_to_know": [
+                "Percent means per hundred.",
+                "Percentage of an amount, percentage change, reverse percentages."
+              ],
+              "understanding": [
+                "Percentage multipliers represent the new amount relative to the original."
+              ],
+              "procedures": [
+                "Find percentages mentally and by calculator.",
+                "Use multipliers for increase/decrease.",
+                "Solve reverse percentage problems."
+              ],
+              "exam_traps": [
+                "Using the percentage change on the changed value instead of the original.",
+                "Using 0.35 instead of 1.35 for a 35% increase."
+              ],
+              "self_test": [
+                "A price rises by 12%. Write the multiplier and find the new price of 48 pounds."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ratio_proportion",
+          "name": "Ratio, proportion and rates",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Ratio notation and sharing",
+              "what_you_need_to_know": [
+                "a:b notation and simplification.",
+                "Sharing amounts in a given ratio."
+              ],
+              "understanding": [
+                "Ratio compares parts or a part to a whole.",
+                "Scaling both parts by the same factor preserves the ratio."
+              ],
+              "procedures": [
+                "Simplify ratios.",
+                "Share an amount in a ratio.",
+                "Solve missing value ratio problems."
+              ],
+              "exam_traps": [
+                "Adding the ratio numbers incorrectly in sharing problems.",
+                "Mixing units before simplifying."
+              ],
+              "self_test": [
+                "Share 84 in the ratio 3:4."
+              ]
+            },
+            {
+              "name": "Direct and inverse proportion",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Direct proportion y proportional to x and inverse proportion y proportional to 1/x.",
+                "Graph shapes and algebraic forms."
+              ],
+              "understanding": [
+                "Direct proportion passes through the origin.",
+                "Inverse proportion decreases as the other variable increases."
+              ],
+              "procedures": [
+                "Set up proportionality equations.",
+                "Find unknowns from given relationships."
+              ],
+              "exam_traps": [
+                "Assuming every straight-line relation is direct proportion."
+              ],
+              "self_test": [
+                "If y is directly proportional to x and y=12 when x=3, find y when x=8."
+              ]
+            },
+            {
+              "name": "Rates and compound measures",
+              "what_you_need_to_know": [
+                "Speed, density, pressure and other compound measures.",
+                "Unit consistency."
+              ],
+              "understanding": [
+                "A rate compares quantities measured in different units."
+              ],
+              "procedures": [
+                "Use and rearrange formulas for compound measures.",
+                "Convert units before calculation."
+              ],
+              "exam_traps": [
+                "Leaving speed in mixed units.",
+                "Rearranging incorrectly."
+              ],
+              "self_test": [
+                "Find speed in m/s when 1.2 km is travelled in 3 minutes."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "tags": [
+        "algebra",
+        "equations",
+        "graphs",
+        "functions"
+      ],
+      "sections": [
+        {
+          "id": "algebra_basics",
+          "name": "Expressions, notation and manipulation",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Algebraic notation",
+              "what_you_need_to_know": [
+                "Term, coefficient, variable, constant, expression, equation, identity, formula.",
+                "Conventions such as 3a for 3 x a."
+              ],
+              "understanding": [
+                "An expression has no equals sign; an equation states equality."
+              ],
+              "procedures": [
+                "Translate words into algebra and algebra into words.",
+                "Substitute values into expressions and formulas."
+              ],
+              "exam_traps": [
+                "Mixing up expressions and equations.",
+                "Misreading 3a^2 as (3a)^2."
+              ],
+              "self_test": [
+                "Write 'five more than twice x' as an expression."
+              ]
+            },
+            {
+              "name": "Collecting like terms and simplifying",
+              "what_you_need_to_know": [
+                "Like terms must have identical variable parts."
+              ],
+              "understanding": [
+                "2x and 2x^2 are not like terms."
+              ],
+              "procedures": [
+                "Simplify expressions with one or more variables."
+              ],
+              "exam_traps": [
+                "Adding unlike terms.",
+                "Combining powers incorrectly."
+              ],
+              "self_test": [
+                "Simplify 3a + 5b - 2a + 4b."
+              ]
+            },
+            {
+              "name": "Expanding and factorising",
+              "what_you_need_to_know": [
+                "Single brackets, double brackets, common factor, quadratic factorisation basics."
+              ],
+              "understanding": [
+                "Factorising is the reverse of expanding."
+              ],
+              "procedures": [
+                "Expand brackets.",
+                "Factorise by common factor and simple quadratics."
+              ],
+              "exam_traps": [
+                "Sign errors with negatives.",
+                "Incorrect middle terms in double bracket expansion."
+              ],
+              "self_test": [
+                "Expand (x+3)(x-5).",
+                "Factorise 6x + 9."
+              ]
+            },
+            {
+              "name": "Algebraic fractions",
+              "priority": "higher_only",
+              "what_you_need_to_know": [
+                "Simplifying, adding, subtracting, multiplying and dividing algebraic fractions."
+              ],
+              "understanding": [
+                "Restrictions occur when denominators equal zero."
+              ],
+              "procedures": [
+                "Simplify and combine algebraic fractions."
+              ],
+              "exam_traps": [
+                "Cancelling terms across addition instead of factors."
+              ],
+              "self_test": [
+                "Simplify (6x^2)/(9x)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_inequalities",
+          "name": "Equations, inequalities and formulae",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Linear equations",
+              "what_you_need_to_know": [
+                "Solving one-step, two-step and multi-step equations.",
+                "Equations with brackets and fractions."
+              ],
+              "understanding": [
+                "Solving maintains equality by doing equivalent operations to both sides."
+              ],
+              "procedures": [
+                "Solve linear equations and check solutions."
+              ],
+              "exam_traps": [
+                "Incorrect sign handling when moving terms.",
+                "Not clearing fractions carefully."
+              ],
+              "self_test": [
+                "Solve 3(2x-1)=15."
+              ]
+            },
+            {
+              "name": "Inequalities",
+              "what_you_need_to_know": [
+                "Solving inequalities and representing solutions on number lines.",
+                "Reversing the inequality sign when multiplying or dividing by a negative."
+              ],
+              "understanding": [
+                "Inequalities describe ranges, not single values."
+              ],
+              "procedures": [
+                "Solve linear inequalities.",
+                "Represent integer and continuous solution sets."
+              ],
+              "exam_traps": [
+                "Forgetting to reverse the sign with a negative multiplier/divisor."
+              ],
+              "self_test": [
+                "Solve -2x + 5 > 11."
+              ]
+            },
+            {
+              "name": "Formulae and rearranging",
+              "what_you_need_to_know": [
+                "Substitution into formulae.",
+                "Changing the subject of a formula."
+              ],
+              "understanding": [
+                "Rearranging is undoing operations in a structured way."
+              ],
+              "procedures": [
+                "Substitute into formulae with powers and roots.",
+                "Rearrange linear formulae and common formulas with fractions."
+              ],
+              "exam_traps": [
+                "Losing brackets in substitution.",
+                "Cross-multiplying incorrectly."
+              ],
+              "self_test": [
+                "Make x the subject of y = (3x - 4)/5."
+              ]
+            },
+            {
+              "name": "Simultaneous equations",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Solving linear simultaneous equations by elimination or substitution.",
+                "Linear-quadratic systems at Higher level."
+              ],
+              "understanding": [
+                "A solution satisfies both equations simultaneously."
+              ],
+              "procedures": [
+                "Solve pairs of equations and interpret intersections graphically."
+              ],
+              "exam_traps": [
+                "Only checking one equation.",
+                "Eliminating the wrong variable or scaling incorrectly."
+              ],
+              "self_test": [
+                "Solve x + y = 9 and 2x - y = 3."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sequences_functions",
+          "name": "Sequences and functions",
+          "priority": "extended",
+          "subsections": [
+            {
+              "name": "Sequences",
+              "what_you_need_to_know": [
+                "Term-to-term rules.",
+                "Nth term of linear and common quadratic sequences."
+              ],
+              "understanding": [
+                "The nth term lets you find any term directly."
+              ],
+              "procedures": [
+                "Continue sequences.",
+                "Find nth terms and specific terms."
+              ],
+              "exam_traps": [
+                "Confusing term-to-term with nth-term rules."
+              ],
+              "self_test": [
+                "Find the nth term of 5, 8, 11, 14, ..."
+              ]
+            },
+            {
+              "name": "Functions",
+              "priority": "higher_only",
+              "what_you_need_to_know": [
+                "Function notation f(x).",
+                "Composite and inverse functions in simple forms."
+              ],
+              "understanding": [
+                "A function maps an input to exactly one output."
+              ],
+              "procedures": [
+                "Evaluate and interpret function notation.",
+                "Find composite and inverse functions where required."
+              ],
+              "exam_traps": [
+                "Treating f(x) as multiplication.",
+                "Forgetting order in composite functions."
+              ],
+              "self_test": [
+                "If f(x)=2x+1, find f(3)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "graphs",
+          "name": "Graphs and graph interpretation",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Coordinates and linear graphs",
+              "what_you_need_to_know": [
+                "Plotting coordinates in all four quadrants.",
+                "Gradient and intercept of straight-line graphs."
+              ],
+              "understanding": [
+                "Gradient is rate of change.",
+                "The y-intercept is where x=0."
+              ],
+              "procedures": [
+                "Plot straight-line graphs from tables or equations.",
+                "Find gradient from points."
+              ],
+              "exam_traps": [
+                "Swapping x and y.",
+                "Using rise/run backwards inconsistently."
+              ],
+              "self_test": [
+                "Find the gradient through (2,3) and (6,11)."
+              ]
+            },
+            {
+              "name": "Quadratic, cubic and reciprocal graphs",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Basic shapes and key features.",
+                "Intercepts and symmetry for quadratics."
+              ],
+              "understanding": [
+                "Different equation types create recognisable families of graphs."
+              ],
+              "procedures": [
+                "Sketch graphs from equations.",
+                "Read approximate solutions from intersections."
+              ],
+              "exam_traps": [
+                "Sketching without key points or turning point awareness."
+              ],
+              "self_test": [
+                "Sketch y=x^2-4 and identify the x-intercepts."
+              ]
+            },
+            {
+              "name": "Graphical solutions and real-life graphs",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Use of graphs to solve equations and simultaneous equations.",
+                "Distance-time and speed-time graph interpretation."
+              ],
+              "understanding": [
+                "The meaning of gradient and area depends on the context of the axes."
+              ],
+              "procedures": [
+                "Find approximate roots and intersections.",
+                "Interpret motion graphs."
+              ],
+              "exam_traps": [
+                "Confusing distance-time gradient with distance."
+              ],
+              "self_test": [
+                "Explain what a horizontal segment means on a distance-time graph."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry_measures",
+      "name": "Geometry and Measures",
+      "tags": [
+        "shape",
+        "angles",
+        "area",
+        "trigonometry",
+        "vectors"
+      ],
+      "sections": [
+        {
+          "id": "angles_shapes",
+          "name": "Angles and shape properties",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Angle facts",
+              "what_you_need_to_know": [
+                "Angles on a line, around a point, vertically opposite angles, parallel line rules.",
+                "Interior and exterior angles in polygons."
+              ],
+              "understanding": [
+                "Many angle questions are chains of linked facts."
+              ],
+              "procedures": [
+                "Find missing angles with clear reasons."
+              ],
+              "exam_traps": [
+                "Using a correct fact in the wrong place.",
+                "Not justifying angle reasoning when asked."
+              ],
+              "self_test": [
+                "State the sum of interior angles in a hexagon."
+              ]
+            },
+            {
+              "name": "Properties of triangles and quadrilaterals",
+              "what_you_need_to_know": [
+                "Names and properties of common polygons.",
+                "Special triangle facts including isosceles and equilateral."
+              ],
+              "understanding": [
+                "Side and angle properties drive proof and problem-solving."
+              ],
+              "procedures": [
+                "Use known shape properties to solve problems."
+              ],
+              "exam_traps": [
+                "Assuming a diagram is drawn to scale."
+              ],
+              "self_test": [
+                "List three properties of a parallelogram."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "perimeter_area_volume",
+          "name": "Perimeter, area, surface area and volume",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Perimeter and area of 2D shapes",
+              "what_you_need_to_know": [
+                "Rectangles, triangles, parallelograms, trapezia, circles and composite shapes.",
+                "Circle formulas for circumference and area."
+              ],
+              "understanding": [
+                "Area measures covering; perimeter measures boundary length."
+              ],
+              "procedures": [
+                "Calculate perimeter and area.",
+                "Split composite shapes into simpler parts."
+              ],
+              "exam_traps": [
+                "Using diameter instead of radius.",
+                "Confusing area and perimeter units."
+              ],
+              "self_test": [
+                "Find the area of a trapezium with parallel sides 8 cm and 14 cm and height 5 cm."
+              ]
+            },
+            {
+              "name": "Surface area and volume of 3D shapes",
+              "what_you_need_to_know": [
+                "Cuboids, prisms, cylinders, pyramids, cones, spheres where required.",
+                "Volume of prisms and cylinders."
+              ],
+              "understanding": [
+                "Volume measures 3D space; surface area measures the total outer area."
+              ],
+              "procedures": [
+                "Calculate volumes and surface areas.",
+                "Use volume formulas in context."
+              ],
+              "exam_traps": [
+                "Mixing area and volume units.",
+                "Using slant height instead of perpendicular height inappropriately."
+              ],
+              "self_test": [
+                "Find the volume of a cylinder of radius 3 cm and height 10 cm."
+              ]
+            },
+            {
+              "name": "Units and conversions",
+              "what_you_need_to_know": [
+                "Metric conversions for length, area, volume and capacity.",
+                "Imperial references where included in context."
+              ],
+              "understanding": [
+                "Area and volume conversions scale differently from length conversions."
+              ],
+              "procedures": [
+                "Convert units before calculating."
+              ],
+              "exam_traps": [
+                "Converting cm to m correctly for length but forgetting square or cube effects for area/volume."
+              ],
+              "self_test": [
+                "Convert 2.4 m^2 to cm^2."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transformations_similarity",
+          "name": "Transformations, congruence and similarity",
+          "priority": "extended",
+          "subsections": [
+            {
+              "name": "Transformations",
+              "what_you_need_to_know": [
+                "Reflection, rotation, translation, enlargement and combinations.",
+                "Centre, angle, direction and vector notation where relevant."
+              ],
+              "understanding": [
+                "A transformation is defined by its invariants and descriptive parameters."
+              ],
+              "procedures": [
+                "Perform and describe transformations on a grid."
+              ],
+              "exam_traps": [
+                "Missing the centre of rotation or line of reflection.",
+                "Incorrect scale factor sign/direction for enlargements."
+              ],
+              "self_test": [
+                "Describe the enlargement that maps shape A to shape B."
+              ]
+            },
+            {
+              "name": "Congruence and similarity",
+              "what_you_need_to_know": [
+                "Conditions for congruent triangles.",
+                "Scale factors in length, area and volume."
+              ],
+              "understanding": [
+                "Similar shapes keep shape but scale size.",
+                "Area scale factor is the square of the length scale factor; volume scale factor is the cube."
+              ],
+              "procedures": [
+                "Solve missing length/area/volume problems in similar shapes."
+              ],
+              "exam_traps": [
+                "Using linear scale factor directly for area or volume."
+              ],
+              "self_test": [
+                "If two similar shapes have length scale factor 3, what is the area scale factor?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circle_theorems_pythagoras_trig",
+          "name": "Circle theorems, Pythagoras and trigonometry",
+          "priority": "extended",
+          "subsections": [
+            {
+              "name": "Pythagoras' theorem",
+              "what_you_need_to_know": [
+                "a^2 + b^2 = c^2 in right-angled triangles.",
+                "Applications in 2D and 3D."
+              ],
+              "understanding": [
+                "The theorem only applies to right-angled triangles."
+              ],
+              "procedures": [
+                "Find missing sides and interpret exact or approximate answers."
+              ],
+              "exam_traps": [
+                "Applying Pythagoras to non-right triangles.",
+                "Mixing hypotenuse and shorter sides."
+              ],
+              "self_test": [
+                "Find the hypotenuse when the other sides are 5 and 12."
+              ]
+            },
+            {
+              "name": "Trigonometry",
+              "what_you_need_to_know": [
+                "sin, cos, tan in right-angled triangles.",
+                "Exact values for common angles where required.",
+                "Sine rule, cosine rule and area formula at Higher level."
+              ],
+              "understanding": [
+                "Choose the trig ratio based on known and required sides relative to the angle."
+              ],
+              "procedures": [
+                "Calculate missing sides and angles.",
+                "Use inverse trig functions.",
+                "Apply non-right-angle trigonometry at Higher tier."
+              ],
+              "exam_traps": [
+                "Using the wrong mode on the calculator.",
+                "Choosing the wrong ratio.",
+                "Rounding too early."
+              ],
+              "self_test": [
+                "Find the side opposite 35 degrees in a right triangle with hypotenuse 10."
+              ]
+            },
+            {
+              "name": "Circle theorems",
+              "priority": "higher_only",
+              "what_you_need_to_know": [
+                "Angle at centre, angle in same segment, angle in a semicircle, tangent-radius fact, alternate segment theorem, cyclic quadrilateral opposite angles."
+              ],
+              "understanding": [
+                "These facts often combine, not appear in isolation."
+              ],
+              "procedures": [
+                "Use theorems to find unknown angles and justify reasoning."
+              ],
+              "exam_traps": [
+                "Naming the wrong theorem.",
+                "Treating the diagram as scale rather than theorem-driven."
+              ],
+              "self_test": [
+                "State two circle theorems from memory."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vectors_constructions_loci",
+          "name": "Vectors, constructions and loci",
+          "priority": "higher_only",
+          "subsections": [
+            {
+              "name": "Vectors",
+              "what_you_need_to_know": [
+                "Vector notation, column vectors, magnitude and direction basics.",
+                "Adding, subtracting and scalar multiples of vectors.",
+                "Vector proofs in geometry."
+              ],
+              "understanding": [
+                "Vectors describe a movement, not just a point."
+              ],
+              "procedures": [
+                "Calculate resultant vectors.",
+                "Use vector methods in geometric proofs."
+              ],
+              "exam_traps": [
+                "Confusing coordinates with vectors.",
+                "Dropping directed signs."
+              ],
+              "self_test": [
+                "Find the vector from A(2,1) to B(7,5)."
+              ]
+            },
+            {
+              "name": "Constructions and loci",
+              "what_you_need_to_know": [
+                "Perpendicular bisector, angle bisector, standard ruler-and-compass constructions.",
+                "Loci from distance conditions."
+              ],
+              "understanding": [
+                "A locus is the set of points satisfying a condition."
+              ],
+              "procedures": [
+                "Construct loci accurately.",
+                "Shade and interpret feasible regions."
+              ],
+              "exam_traps": [
+                "Using freehand instead of construction arcs.",
+                "Ignoring boundary conditions."
+              ],
+              "self_test": [
+                "Describe the locus of points 4 cm from a fixed point."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistics_probability",
+      "name": "Statistics and Probability",
+      "tags": [
+        "data",
+        "graphs",
+        "probability"
+      ],
+      "sections": [
+        {
+          "id": "statistics",
+          "name": "Statistics",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Data collection and sampling",
+              "what_you_need_to_know": [
+                "Primary vs secondary data, questionnaires, bias, sample size, random sampling, stratified sampling."
+              ],
+              "understanding": [
+                "Good data collection balances fairness, practicality and purpose."
+              ],
+              "procedures": [
+                "Identify strengths/weaknesses of methods.",
+                "Use stratified sampling calculations."
+              ],
+              "exam_traps": [
+                "Confusing random with representative.",
+                "Ignoring wording bias."
+              ],
+              "self_test": [
+                "Explain why a survey outside a sports centre may be biased."
+              ]
+            },
+            {
+              "name": "Averages and spread",
+              "what_you_need_to_know": [
+                "Mean, median, mode, range and from tables.",
+                "Estimated mean from grouped data."
+              ],
+              "understanding": [
+                "Different averages suit different distributions and outlier sensitivity."
+              ],
+              "procedures": [
+                "Calculate averages from raw and grouped data.",
+                "Choose the most appropriate average."
+              ],
+              "exam_traps": [
+                "Using class boundaries incorrectly for grouped data.",
+                "Confusing frequency with total."
+              ],
+              "self_test": [
+                "Calculate the mean from a frequency table."
+              ]
+            },
+            {
+              "name": "Charts and diagrams",
+              "what_you_need_to_know": [
+                "Bar charts, pie charts, line graphs, frequency polygons, histograms, cumulative frequency, box plots, scatter graphs."
+              ],
+              "understanding": [
+                "Each graph has a purpose; histograms use frequency density, not frequency height."
+              ],
+              "procedures": [
+                "Draw and interpret common statistical diagrams.",
+                "Compare distributions using medians, spread and shape."
+              ],
+              "exam_traps": [
+                "Drawing bars touching when they should not.",
+                "Using frequency instead of frequency density in histograms."
+              ],
+              "self_test": [
+                "Explain what an outlier looks like on a box plot."
+              ]
+            },
+            {
+              "name": "Correlation and interpretation",
+              "what_you_need_to_know": [
+                "Positive, negative and no correlation.",
+                "Interpolation and extrapolation."
+              ],
+              "understanding": [
+                "Correlation does not imply causation."
+              ],
+              "procedures": [
+                "Draw lines of best fit where appropriate.",
+                "Interpret scatter graphs."
+              ],
+              "exam_traps": [
+                "Over-interpreting weak correlation.",
+                "Assuming a causal link automatically."
+              ],
+              "self_test": [
+                "State whether a scatter graph with points rising left-to-right shows positive or negative correlation."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "probability",
+          "name": "Probability",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Basic probability",
+              "what_you_need_to_know": [
+                "Probability scale from 0 to 1.",
+                "Impossible, certain, equally likely outcomes."
+              ],
+              "understanding": [
+                "Probability measures likelihood, not a guarantee of what will happen next."
+              ],
+              "procedures": [
+                "Find simple probabilities from equally likely outcomes."
+              ],
+              "exam_traps": [
+                "Writing probability outside 0 to 1."
+              ],
+              "self_test": [
+                "What is the probability of rolling an even number on a fair six-sided die?"
+              ]
+            },
+            {
+              "name": "Combined events",
+              "what_you_need_to_know": [
+                "Listing outcomes, sample spaces, probability of combined events."
+              ],
+              "understanding": [
+                "Systematic listing avoids missed or repeated outcomes."
+              ],
+              "procedures": [
+                "Construct sample space diagrams.",
+                "Find probabilities of events involving two stages."
+              ],
+              "exam_traps": [
+                "Double-counting outcomes."
+              ],
+              "self_test": [
+                "List all outcomes for flipping a coin then rolling a die."
+              ]
+            },
+            {
+              "name": "Tree diagrams and conditional probability",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Independent vs dependent events.",
+                "With replacement and without replacement.",
+                "Conditional probability basics."
+              ],
+              "understanding": [
+                "Branch probabilities can change after a first event when there is no replacement."
+              ],
+              "procedures": [
+                "Complete tree diagrams.",
+                "Multiply along branches and add across appropriate branches.",
+                "Use conditional probability in simple contexts."
+              ],
+              "exam_traps": [
+                "Keeping branch probabilities the same when there is no replacement.",
+                "Adding and multiplying at the wrong stage."
+              ],
+              "self_test": [
+                "A bag has 3 red and 2 blue counters. Two are taken without replacement. Draw or describe the tree."
+              ]
+            },
+            {
+              "name": "Venn diagrams and set notation",
+              "priority": "higher_only",
+              "what_you_need_to_know": [
+                "Union, intersection, complement and notation.",
+                "Use in probability and counting."
+              ],
+              "understanding": [
+                "A region can represent overlap and conditional information."
+              ],
+              "procedures": [
+                "Fill and interpret Venn diagrams."
+              ],
+              "exam_traps": [
+                "Placing shared values outside the intersection."
+              ],
+              "self_test": [
+                "State the meaning of A ∩ B."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam_execution",
+      "name": "Exam Execution and Mathematical Communication",
+      "tags": [
+        "exam technique",
+        "reasoning",
+        "communication"
+      ],
+      "sections": [
+        {
+          "id": "problem_solving",
+          "name": "Problem solving and reasoning",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Translating words into maths",
+              "what_you_need_to_know": [
+                "Keywords for operations and relationships.",
+                "How to identify the unknown, known information, constraints and units."
+              ],
+              "understanding": [
+                "Most difficult questions are ordinary maths hidden inside language and structure."
+              ],
+              "procedures": [
+                "Annotate the problem.",
+                "Choose an approach before calculating.",
+                "Represent information with diagrams, tables or algebra."
+              ],
+              "exam_traps": [
+                "Starting calculations before understanding what is being asked.",
+                "Ignoring units or context."
+              ],
+              "self_test": [
+                "Explain how you would start a multi-step percentage word problem."
+              ]
+            },
+            {
+              "name": "Reasoning and proof",
+              "priority": "extended",
+              "what_you_need_to_know": [
+                "Counterexample, deduction, algebraic proof basics, geometric justification."
+              ],
+              "understanding": [
+                "A convincing answer needs a reason, not just a result."
+              ],
+              "procedures": [
+                "Write short proofs and justifications.",
+                "Use algebra to show results are always true."
+              ],
+              "exam_traps": [
+                "Testing one case and claiming proof.",
+                "Giving a correct answer without reasoning when proof is required."
+              ],
+              "self_test": [
+                "What is a counterexample?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calculator_noncalculator",
+          "name": "Calculator and non-calculator technique",
+          "priority": "core",
+          "subsections": [
+            {
+              "name": "Calculator use",
+              "what_you_need_to_know": [
+                "Bracket use, memory of previous answers, degree mode for trigonometry, fraction/decimal display."
+              ],
+              "understanding": [
+                "A calculator removes arithmetic workload, not the need for method and checking."
+              ],
+              "procedures": [
+                "Enter expressions correctly.",
+                "Store more precision and round only at the end."
+              ],
+              "exam_traps": [
+                "Using radians instead of degrees.",
+                "Rounding too early."
+              ],
+              "self_test": [
+                "State two calculator mistakes that commonly lose marks."
+              ]
+            },
+            {
+              "name": "Working and presentation",
+              "what_you_need_to_know": [
+                "Method marks depend on visible reasoning.",
+                "Final answers should include units and suitable accuracy."
+              ],
+              "understanding": [
+                "Clear working supports both marker credit and your own error-checking."
+              ],
+              "procedures": [
+                "Lay out steps logically.",
+                "Label diagrams and units."
+              ],
+              "exam_traps": [
+                "Writing only the final answer.",
+                "Failing to simplify exact answers when appropriate."
+              ],
+              "self_test": [
+                "List three presentation habits that protect marks."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
